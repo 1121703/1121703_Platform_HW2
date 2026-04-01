@@ -14,11 +14,11 @@ jobs:
     steps:
       # 1. 下載並檢查儲存庫內容
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # 2. 安裝 Python 環境 (HW2 要求使用 Python)
       - name: Set up Python 3.10
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
